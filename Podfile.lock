@@ -1,0 +1,30 @@
+PODS:
+  - ARChromeActivity (1.0.2)
+  - KINWebBrowser (1.2.5):
+    - ARChromeActivity (= 1.0.2)
+    - TUSafariActivity (= 1.0.2)
+  - MWFeedParser (1.0.1):
+    - MWFeedParser/FeedParser (= 1.0.1)
+    - MWFeedParser/NSDate+InternetDateTime (= 1.0.1)
+    - MWFeedParser/NSString+HTML (= 1.0.1)
+  - MWFeedParser/FeedParser (1.0.1):
+    - MWFeedParser/NSDate+InternetDateTime
+    - MWFeedParser/NSString+HTML
+  - MWFeedParser/NSDate+InternetDateTime (1.0.1)
+  - MWFeedParser/NSString+HTML (1.0.1)
+  - SWRevealViewController (2.3.0)
+  - TUSafariActivity (1.0.2)
+
+DEPENDENCIES:
+  - KINWebBrowser
+  - MWFeedParser
+  - SWRevealViewController
+
+SPEC CHECKSUMS:
+  ARChromeActivity: 6488aedc8dd0624b103ea8caf6218e52692aaf77
+  KINWebBrowser: 773e75882717d735cc37772cf71d5eb2b28554fe
+  MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+  TUSafariActivity: 32e3e5dc9123e5533a42d41e1c3246d12911a4a2
+
+COCOAPODS: 0.38.2

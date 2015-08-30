@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9656E10AC8792ED65CAF9BF4 /* Pods_Livedoor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77CDF953CF93BD2541DBEEA /* Pods_Livedoor.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FD0893001B90D8D00008F63F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0892FF1B90D8D00008F63F /* AppDelegate.swift */; };
+		FD0893051B90D8D00008F63F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0893031B90D8D00008F63F /* Main.storyboard */; };
+		FD0893071B90D8D00008F63F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0893061B90D8D00008F63F /* Images.xcassets */; };
+		FD08930A1B90D8D00008F63F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD0893081B90D8D00008F63F /* LaunchScreen.xib */; };
+		FD0893161B90D8D00008F63F /* LivedoorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0893151B90D8D00008F63F /* LivedoorTests.swift */; };
+		FD08932B1B9104A40008F63F /* TopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD08932A1B9104A40008F63F /* TopTableViewController.swift */; };
+		FD08932D1B9109540008F63F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD08932C1B9109540008F63F /* CoreData.framework */; };
+		FD803D541B91756900F126B1 /* DomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD803D531B91756900F126B1 /* DomTableViewController.swift */; };
+		FD803D561B9238F100F126B1 /* IntTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD803D551B9238F100F126B1 /* IntTableViewController.swift */; };
+		FD803D581B9238FB00F126B1 /* EcoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD803D571B9238FB00F126B1 /* EcoTableViewController.swift */; };
+		FD803D5A1B92390300F126B1 /* EntTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD803D591B92390300F126B1 /* EntTableViewController.swift */; };
+		FD803D5C1B92390E00F126B1 /* SpoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD803D5B1B92390E00F126B1 /* SpoTableViewController.swift */; };
+		FD803D5E1B92391600F126B1 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD803D5D1B92391600F126B1 /* MovieTableViewController.swift */; };
+		FD803D601B92391E00F126B1 /* GourTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD803D5F1B92391E00F126B1 /* GourTableViewController.swift */; };
+		FD803D621B9239FC00F126B1 /* LoveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD803D611B9239FC00F126B1 /* LoveTableViewController.swift */; };
+		FD803D641B923A0400F126B1 /* TrendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD803D631B923A0400F126B1 /* TrendTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD0893101B90D8D00008F63F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD0892F21B90D8D00008F63F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD0892F91B90D8D00008F63F;
+			remoteInfo = Livedoor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E190106C4C1E35F79C33AB9 /* Pods-Livedoor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Livedoor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Livedoor/Pods-Livedoor.release.xcconfig"; sourceTree = "<group>"; };
+		B77CDF953CF93BD2541DBEEA /* Pods_Livedoor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Livedoor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79F8E13B1EEB040EC9794EC /* Pods-Livedoor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Livedoor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Livedoor/Pods-Livedoor.debug.xcconfig"; sourceTree = "<group>"; };
+		FD0892FA1B90D8D00008F63F /* Livedoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Livedoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0892FE1B90D8D00008F63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0892FF1B90D8D00008F63F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD0893041B90D8D00008F63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD0893061B90D8D00008F63F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD0893091B90D8D00008F63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD08930F1B90D8D00008F63F /* LivedoorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivedoorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0893141B90D8D00008F63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0893151B90D8D00008F63F /* LivedoorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivedoorTests.swift; sourceTree = "<group>"; };
+		FD08931F1B90DA810008F63F /* Livedoor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Livedoor-Bridging-Header.h"; sourceTree = "<group>"; };
+		FD08932A1B9104A40008F63F /* TopTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTableViewController.swift; sourceTree = "<group>"; };
+		FD08932C1B9109540008F63F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FD803D531B91756900F126B1 /* DomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomTableViewController.swift; sourceTree = "<group>"; };
+		FD803D551B9238F100F126B1 /* IntTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntTableViewController.swift; sourceTree = "<group>"; };
+		FD803D571B9238FB00F126B1 /* EcoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcoTableViewController.swift; sourceTree = "<group>"; };
+		FD803D591B92390300F126B1 /* EntTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntTableViewController.swift; sourceTree = "<group>"; };
+		FD803D5B1B92390E00F126B1 /* SpoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpoTableViewController.swift; sourceTree = "<group>"; };
+		FD803D5D1B92391600F126B1 /* MovieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		FD803D5F1B92391E00F126B1 /* GourTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GourTableViewController.swift; sourceTree = "<group>"; };
+		FD803D611B9239FC00F126B1 /* LoveTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoveTableViewController.swift; sourceTree = "<group>"; };
+		FD803D631B923A0400F126B1 /* TrendTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD0892F71B90D8D00008F63F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD08932D1B9109540008F63F /* CoreData.framework in Frameworks */,
+				9656E10AC8792ED65CAF9BF4 /* Pods_Livedoor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD08930C1B90D8D00008F63F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1286EB25C99273245C04C15D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD08932C1B9109540008F63F /* CoreData.framework */,
+				B77CDF953CF93BD2541DBEEA /* Pods_Livedoor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A84D2018187821D197F7DEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B79F8E13B1EEB040EC9794EC /* Pods-Livedoor.debug.xcconfig */,
+				5E190106C4C1E35F79C33AB9 /* Pods-Livedoor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD0892F11B90D8D00008F63F = {
+			isa = PBXGroup;
+			children = (
+				FD0892FC1B90D8D00008F63F /* Livedoor */,
+				FD0893121B90D8D00008F63F /* LivedoorTests */,
+				FD0892FB1B90D8D00008F63F /* Products */,
+				1A84D2018187821D197F7DEC /* Pods */,
+				1286EB25C99273245C04C15D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD0892FB1B90D8D00008F63F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD0892FA1B90D8D00008F63F /* Livedoor.app */,
+				FD08930F1B90D8D00008F63F /* LivedoorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD0892FC1B90D8D00008F63F /* Livedoor */ = {
+			isa = PBXGroup;
+			children = (
+				FD0892FF1B90D8D00008F63F /* AppDelegate.swift */,
+				FD08932A1B9104A40008F63F /* TopTableViewController.swift */,
+				FD803D551B9238F100F126B1 /* IntTableViewController.swift */,
+				FD803D571B9238FB00F126B1 /* EcoTableViewController.swift */,
+				FD803D591B92390300F126B1 /* EntTableViewController.swift */,
+				FD803D5B1B92390E00F126B1 /* SpoTableViewController.swift */,
+				FD803D5D1B92391600F126B1 /* MovieTableViewController.swift */,
+				FD803D5F1B92391E00F126B1 /* GourTableViewController.swift */,
+				FD803D611B9239FC00F126B1 /* LoveTableViewController.swift */,
+				FD803D631B923A0400F126B1 /* TrendTableViewController.swift */,
+				FD803D531B91756900F126B1 /* DomTableViewController.swift */,
+				FD0893031B90D8D00008F63F /* Main.storyboard */,
+				FD0893061B90D8D00008F63F /* Images.xcassets */,
+				FD0893081B90D8D00008F63F /* LaunchScreen.xib */,
+				FD0892FD1B90D8D00008F63F /* Supporting Files */,
+				FD08931F1B90DA810008F63F /* Livedoor-Bridging-Header.h */,
+			);
+			path = Livedoor;
+			sourceTree = "<group>";
+		};
+		FD0892FD1B90D8D00008F63F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD0892FE1B90D8D00008F63F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD0893121B90D8D00008F63F /* LivedoorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD0893151B90D8D00008F63F /* LivedoorTests.swift */,
+				FD0893131B90D8D00008F63F /* Supporting Files */,
+			);
+			path = LivedoorTests;
+			sourceTree = "<group>";
+		};
+		FD0893131B90D8D00008F63F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD0893141B90D8D00008F63F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD0892F91B90D8D00008F63F /* Livedoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0893191B90D8D00008F63F /* Build configuration list for PBXNativeTarget "Livedoor" */;
+			buildPhases = (
+				ED8EC2BC024FE6F5C0FA2B3A /* Check Pods Manifest.lock */,
+				FD0892F61B90D8D00008F63F /* Sources */,
+				FD0892F71B90D8D00008F63F /* Frameworks */,
+				FD0892F81B90D8D00008F63F /* Resources */,
+				54B7E2715F0130E7B1CEC231 /* Embed Pods Frameworks */,
+				3F6B0333BA1696E2C191170F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Livedoor;
+			productName = Livedoor;
+			productReference = FD0892FA1B90D8D00008F63F /* Livedoor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD08930E1B90D8D00008F63F /* LivedoorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD08931C1B90D8D00008F63F /* Build configuration list for PBXNativeTarget "LivedoorTests" */;
+			buildPhases = (
+				FD08930B1B90D8D00008F63F /* Sources */,
+				FD08930C1B90D8D00008F63F /* Frameworks */,
+				FD08930D1B90D8D00008F63F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD0893111B90D8D00008F63F /* PBXTargetDependency */,
+			);
+			name = LivedoorTests;
+			productName = LivedoorTests;
+			productReference = FD08930F1B90D8D00008F63F /* LivedoorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD0892F21B90D8D00008F63F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = mana;
+				TargetAttributes = {
+					FD0892F91B90D8D00008F63F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FD08930E1B90D8D00008F63F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FD0892F91B90D8D00008F63F;
+					};
+				};
+			};
+			buildConfigurationList = FD0892F51B90D8D00008F63F /* Build configuration list for PBXProject "Livedoor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD0892F11B90D8D00008F63F;
+			productRefGroup = FD0892FB1B90D8D00008F63F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD0892F91B90D8D00008F63F /* Livedoor */,
+				FD08930E1B90D8D00008F63F /* LivedoorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD0892F81B90D8D00008F63F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0893051B90D8D00008F63F /* Main.storyboard in Resources */,
+				FD08930A1B90D8D00008F63F /* LaunchScreen.xib in Resources */,
+				FD0893071B90D8D00008F63F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD08930D1B90D8D00008F63F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F6B0333BA1696E2C191170F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Livedoor/Pods-Livedoor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54B7E2715F0130E7B1CEC231 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Livedoor/Pods-Livedoor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED8EC2BC024FE6F5C0FA2B3A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD0892F61B90D8D00008F63F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD803D561B9238F100F126B1 /* IntTableViewController.swift in Sources */,
+				FD803D621B9239FC00F126B1 /* LoveTableViewController.swift in Sources */,
+				FD803D5A1B92390300F126B1 /* EntTableViewController.swift in Sources */,
+				FD803D5E1B92391600F126B1 /* MovieTableViewController.swift in Sources */,
+				FD803D601B92391E00F126B1 /* GourTableViewController.swift in Sources */,
+				FD803D5C1B92390E00F126B1 /* SpoTableViewController.swift in Sources */,
+				FD803D581B9238FB00F126B1 /* EcoTableViewController.swift in Sources */,
+				FD803D541B91756900F126B1 /* DomTableViewController.swift in Sources */,
+				FD08932B1B9104A40008F63F /* TopTableViewController.swift in Sources */,
+				FD803D641B923A0400F126B1 /* TrendTableViewController.swift in Sources */,
+				FD0893001B90D8D00008F63F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD08930B1B90D8D00008F63F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0893161B90D8D00008F63F /* LivedoorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD0893111B90D8D00008F63F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD0892F91B90D8D00008F63F /* Livedoor */;
+			targetProxy = FD0893101B90D8D00008F63F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD0893031B90D8D00008F63F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD0893041B90D8D00008F63F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD0893081B90D8D00008F63F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD0893091B90D8D00008F63F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD0893171B90D8D00008F63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
+			};
+			name = Debug;
+		};
+		FD0893181B90D8D00008F63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD08931A1B90D8D00008F63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B79F8E13B1EEB040EC9794EC /* Pods-Livedoor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Livedoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Livedoor/Livedoor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
+			};
+			name = Debug;
+		};
+		FD08931B1B90D8D00008F63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E190106C4C1E35F79C33AB9 /* Pods-Livedoor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Livedoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Livedoor/Livedoor-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
+			};
+			name = Release;
+		};
+		FD08931D1B90D8D00008F63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LivedoorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Livedoor.app/Livedoor";
+			};
+			name = Debug;
+		};
+		FD08931E1B90D8D00008F63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LivedoorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Livedoor.app/Livedoor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD0892F51B90D8D00008F63F /* Build configuration list for PBXProject "Livedoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0893171B90D8D00008F63F /* Debug */,
+				FD0893181B90D8D00008F63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD0893191B90D8D00008F63F /* Build configuration list for PBXNativeTarget "Livedoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD08931A1B90D8D00008F63F /* Debug */,
+				FD08931B1B90D8D00008F63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD08931C1B90D8D00008F63F /* Build configuration list for PBXNativeTarget "LivedoorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD08931D1B90D8D00008F63F /* Debug */,
+				FD08931E1B90D8D00008F63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD0892F21B90D8D00008F63F /* Project object */;
+}

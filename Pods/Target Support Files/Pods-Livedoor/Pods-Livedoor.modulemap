@@ -1,0 +1,6 @@
+framework module Pods_Livedoor {
+  umbrella header "Pods-Livedoor-umbrella.h"
+
+  export *
+  module * { export * }
+}
